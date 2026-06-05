@@ -13,6 +13,7 @@ class InventoryPage:
         self._product_prices: Locator = page.locator(".inventory_item_price")
         self._add_to_cart_buttons: Locator = page.locator(".inventory_item button")
         self._sort_dropdown: Locator = page.locator(".product_sort_container")
+        self._cart_icon: Locator = page.locator(".shopping_cart_link")
         self._cart_badge: Locator = page.locator(".shopping_cart_badge")
 
     def is_loaded(self) -> bool:
@@ -57,8 +58,17 @@ class InventoryPage:
     def click_first_product_name(self) -> None:
         self._product_names.first.click()
 
+    def click_cart_icon(self) -> None:
+        self._cart_icon.click()
+
     def add_first_product_to_cart(self) -> None:
         self._product_items.first.locator("button").click()
+
+    def add_product_to_cart_by_index(self, index: int) -> None:
+        self._product_items.nth(index).locator("button").click()
+
+    def reload(self) -> None:
+        self.page.reload()
 
     def get_cart_badge_text(self) -> str:
         return self._cart_badge.inner_text()

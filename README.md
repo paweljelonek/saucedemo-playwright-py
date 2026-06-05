@@ -18,7 +18,7 @@ Automated end-to-end tests for [saucedemo.com](https://www.saucedemo.com) built 
 | Login | TC01 - TC07 | ✅ Done |
 | Inventory | TC08 - TC13 | ✅ Done |
 | Product details | TC14 - TC17 | ✅ Done |
-| Cart | TC18 - TC23 | ⬜ Pending |
+| Cart | TC18 - TC23 | ✅ Done |
 | Checkout - form | TC24 - TC27 | ⬜ Pending |
 | Checkout - summary & order | TC28 - TC31 | ⬜ Pending |
 | Logout & navigation | TC32 - TC35 | ⬜ Pending |

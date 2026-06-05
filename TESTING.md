@@ -16,7 +16,7 @@ This document covers all planned test cases for the SauceDemo app, grouped by fe
 | Login | TC01 - TC07 | ✅ Done |
 | Inventory | TC08 - TC13 | ✅ Done |
 | Product details | TC14 - TC17 | ✅ Done |
-| Cart | TC18 - TC23 | ⬜ Pending |
+| Cart | TC18 - TC23 | ✅ Done |
 | Checkout - form | TC24 - TC27 | ⬜ Pending |
 | Checkout - summary & order | TC28 - TC31 | ⬜ Pending |
 | Logout & navigation | TC32 - TC35 | ⬜ Pending |
@@ -299,7 +299,7 @@ This document covers all planned test cases for the SauceDemo app, grouped by fe
 
 ---
 
-### TC18 - Adding one product shows it in the cart with correct details ⬜
+### TC18 - Adding one product shows it in the cart with correct details ✅
 
 **Goal:** Verify the basic add-to-cart flow.
 
@@ -314,7 +314,7 @@ This document covers all planned test cases for the SauceDemo app, grouped by fe
 
 ---
 
-### TC19 - Adding 3 products shows all of them in the cart ⬜
+### TC19 - Adding 3 products shows all of them in the cart ✅
 
 **Goal:** Verify the cart correctly displays multiple products.
 
@@ -329,7 +329,7 @@ This document covers all planned test cases for the SauceDemo app, grouped by fe
 
 ---
 
-### TC20 - Removing a product from cart leaves one item ⬜
+### TC20 - Removing a product from cart leaves one item ✅
 
 **Goal:** Verify product removal from the cart view.
 
@@ -345,7 +345,7 @@ This document covers all planned test cases for the SauceDemo app, grouped by fe
 
 ---
 
-### TC21 - Removing the only product leaves the cart empty ⬜
+### TC21 - Removing the only product leaves the cart empty ✅
 
 **Goal:** Verify the empty cart state.
 
@@ -361,7 +361,7 @@ This document covers all planned test cases for the SauceDemo app, grouped by fe
 
 ---
 
-### TC22 - Continue shopping returns to inventory with cart intact ⬜
+### TC22 - Continue shopping returns to inventory with cart intact ✅
 
 **Goal:** Verify the `Continue Shopping` button works correctly.
 
@@ -375,7 +375,7 @@ This document covers all planned test cases for the SauceDemo app, grouped by fe
 
 ---
 
-### TC23 - Cart content survives a page reload ⬜
+### TC23 - Cart content survives a page reload ✅
 
 **Goal:** Verify that the cart state is preserved across page reloads.
 

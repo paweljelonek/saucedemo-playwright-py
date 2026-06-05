@@ -9,9 +9,9 @@ class ProductPage:
         self._name: Locator = page.locator(".inventory_details_name")
         self._description: Locator = page.locator(".inventory_details_desc")
         self._price: Locator = page.locator(".inventory_details_price")
-        self._image: Locator = page.locator(".inventory_details_img img")
-        self._add_to_cart_button: Locator = page.locator(".btn_primary")
-        self._remove_button: Locator = page.locator(".btn_secondary")
+        self._image: Locator = page.locator(".inventory_details_img_container img")
+        self._add_to_cart_button: Locator = page.locator(".btn_primary.btn_inventory")
+        self._remove_button: Locator = page.locator("[data-test='remove']")
         self._back_button: Locator = page.locator("[data-test='back-to-products']")
         self._cart_badge: Locator = page.locator(".shopping_cart_badge")
 
