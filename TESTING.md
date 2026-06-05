@@ -15,7 +15,7 @@ This document covers all planned test cases for the SauceDemo app, grouped by fe
 |-------|-------|--------|
 | Login | TC01 - TC07 | ✅ Done |
 | Inventory | TC08 - TC13 | ✅ Done |
-| Product details | TC14 - TC17 | ⬜ Pending |
+| Product details | TC14 - TC17 | ✅ Done |
 | Cart | TC18 - TC23 | ⬜ Pending |
 | Checkout - form | TC24 - TC27 | ⬜ Pending |
 | Checkout - summary & order | TC28 - TC31 | ⬜ Pending |
@@ -235,7 +235,7 @@ This document covers all planned test cases for the SauceDemo app, grouped by fe
 
 ---
 
-### TC14 - Clicking a product name opens its details page ⬜
+### TC14 - Clicking a product name opens its details page ✅
 
 **Goal:** Verify that clicking a product name navigates to the details page.
 
@@ -250,7 +250,7 @@ This document covers all planned test cases for the SauceDemo app, grouped by fe
 
 ---
 
-### TC15 - Adding a product from details page updates the cart badge ⬜
+### TC15 - Adding a product from details page updates the cart badge ✅
 
 **Goal:** Verify a product can be added to the cart from its details page.
 
@@ -265,7 +265,7 @@ This document covers all planned test cases for the SauceDemo app, grouped by fe
 
 ---
 
-### TC16 - Removing a product from details page clears the cart badge ⬜
+### TC16 - Removing a product from details page clears the cart badge ✅
 
 **Goal:** Verify a product can be removed from the cart while on its details page.
 
@@ -280,7 +280,7 @@ This document covers all planned test cases for the SauceDemo app, grouped by fe
 
 ---
 
-### TC17 - Back to products button returns to inventory ⬜
+### TC17 - Back to products button returns to inventory ✅
 
 **Goal:** Verify the back button navigates back to the product list.
 

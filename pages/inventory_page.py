@@ -54,6 +54,9 @@ class InventoryPage:
     def sort_by_price_desc(self) -> None:
         self._sort_dropdown.select_option("hilo")
 
+    def click_first_product_name(self) -> None:
+        self._product_names.first.click()
+
     def add_first_product_to_cart(self) -> None:
         self._product_items.first.locator("button").click()
 
