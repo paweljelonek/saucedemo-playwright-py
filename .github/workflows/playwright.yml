@@ -30,7 +30,7 @@ jobs:
         run: playwright install --with-deps ${{ matrix.browser }}
 
       - name: Run tests
-        run: pytest --browser ${{ matrix.browser }} --tb=short
+        run: pytest --override-ini="addopts=" --browser ${{ matrix.browser }} --tb=short
 
       - name: Upload test report
         if: always()
