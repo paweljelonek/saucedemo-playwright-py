@@ -14,7 +14,7 @@ This document covers all planned test cases for the SauceDemo app, grouped by fe
 | Group | Cases | Status |
 |-------|-------|--------|
 | Login | TC01 - TC07 | ✅ Done |
-| Inventory | TC08 - TC13 | ⬜ Pending |
+| Inventory | TC08 - TC13 | ✅ Done |
 | Product details | TC14 - TC17 | ⬜ Pending |
 | Cart | TC18 - TC23 | ⬜ Pending |
 | Checkout - form | TC24 - TC27 | ⬜ Pending |
@@ -143,7 +143,7 @@ This document covers all planned test cases for the SauceDemo app, grouped by fe
 
 ---
 
-### TC08 - Product list displayed after login ⬜
+### TC08 - Product list displayed after login ✅
 
 **Goal:** Verify the product list loads correctly after logging in.
 
@@ -158,7 +158,7 @@ This document covers all planned test cases for the SauceDemo app, grouped by fe
 
 ---
 
-### TC09 - Sort products A to Z (default) ⬜
+### TC09 - Sort products A to Z (default) ✅
 
 **Goal:** Verify the default sort order is alphabetical ascending.
 
@@ -173,7 +173,7 @@ This document covers all planned test cases for the SauceDemo app, grouped by fe
 
 ---
 
-### TC10 - Sort products Z to A ⬜
+### TC10 - Sort products Z to A ✅
 
 **Goal:** Verify reverse alphabetical sorting works.
 
@@ -187,7 +187,7 @@ This document covers all planned test cases for the SauceDemo app, grouped by fe
 
 ---
 
-### TC11 - Sort products by price ascending ⬜
+### TC11 - Sort products by price ascending ✅
 
 **Goal:** Verify sorting from cheapest to most expensive.
 
@@ -201,7 +201,7 @@ This document covers all planned test cases for the SauceDemo app, grouped by fe
 
 ---
 
-### TC12 - Sort products by price descending ⬜
+### TC12 - Sort products by price descending ✅
 
 **Goal:** Verify sorting from most expensive to cheapest.
 
@@ -215,7 +215,7 @@ This document covers all planned test cases for the SauceDemo app, grouped by fe
 
 ---
 
-### TC13 - Cart badge updates after adding a product ⬜
+### TC13 - Cart badge updates after adding a product ✅
 
 **Goal:** Verify the cart icon counter updates when a product is added.
 

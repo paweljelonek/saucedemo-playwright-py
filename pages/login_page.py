@@ -1,5 +1,7 @@
 from playwright.sync_api import Page, Locator
 
+from utils.urls import URL
+
 
 class LoginPage:
     def __init__(self, page: Page) -> None:
@@ -10,7 +12,7 @@ class LoginPage:
         self.error_container: Locator = page.locator("[data-test='error']")
 
     def navigate(self) -> None:
-        self.page.goto("/")
+        self.page.goto(URL.LOGIN)
 
     def login(self, username: str, password: str) -> None:
         self.username_input.fill(username)
