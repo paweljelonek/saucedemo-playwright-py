@@ -12,7 +12,6 @@ from utils.users import (
 
 
 class TestLogin:
-
     def test_tc01_successful_login_with_standard_user(self, page: Page) -> None:
         login_page = LoginPage(page)
         inventory_page = InventoryPage(page)

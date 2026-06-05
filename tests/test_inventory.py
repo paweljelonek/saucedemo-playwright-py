@@ -6,7 +6,6 @@ from pages.inventory_page import InventoryPage
 
 
 class TestInventory:
-
     def test_tc08_product_list_displayed_after_login(self, logged_in_page: Page) -> None:
         inventory_page = InventoryPage(logged_in_page)
 
