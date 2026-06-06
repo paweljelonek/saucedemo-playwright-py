@@ -16,6 +16,9 @@ class InventoryPage:
         self._cart_icon: Locator = page.locator(".shopping_cart_link")
         self._cart_badge: Locator = page.locator(".shopping_cart_badge")
 
+    def navigate(self) -> None:
+        self.page.goto(URL.INVENTORY)
+
     def is_loaded(self) -> bool:
         return URL.INVENTORY in self.page.url
 

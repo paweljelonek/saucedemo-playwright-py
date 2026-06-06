@@ -19,8 +19,8 @@ This document covers all planned test cases for the SauceDemo app, grouped by fe
 | Cart | TC18 - TC23 | ✅ Done |
 | Checkout - form | TC24 - TC27 | ✅ Done |
 | Checkout - summary & order | TC28 - TC31 | ✅ Done |
-| Logout & navigation | TC32 - TC35 | ⬜ Pending |
-| Special users | TC36 - TC37 | ⬜ Pending |
+| Logout & navigation | TC32 - TC35 | ✅ Done |
+| Special users | TC36 - TC37 | ✅ Done |
 
 ---
 
@@ -530,7 +530,7 @@ This document covers all planned test cases for the SauceDemo app, grouped by fe
 
 ---
 
-### TC32 - Successful logout via sidebar menu ⬜
+### TC32 - Successful logout via sidebar menu ✅
 
 **Goal:** Verify a user can log out through the sidebar.
 
@@ -546,7 +546,7 @@ This document covers all planned test cases for the SauceDemo app, grouped by fe
 
 ---
 
-### TC33 - No access to /inventory after logout ⬜
+### TC33 - No access to /inventory after logout ✅
 
 **Goal:** Verify that a logged-out user cannot access protected pages.
 
@@ -560,7 +560,7 @@ This document covers all planned test cases for the SauceDemo app, grouped by fe
 
 ---
 
-### TC34 - Sidebar menu contains all expected options ⬜
+### TC34 - Sidebar menu contains all expected options ✅
 
 **Goal:** Verify the sidebar menu content.
 
@@ -575,7 +575,7 @@ This document covers all planned test cases for the SauceDemo app, grouped by fe
 
 ---
 
-### TC35 - Reset app state via sidebar menu clears the cart ⬜
+### TC35 - Reset app state via sidebar menu clears the cart ✅
 
 **Goal:** Verify that `Reset App State` empties the cart.
 
@@ -597,7 +597,7 @@ This document covers all planned test cases for the SauceDemo app, grouped by fe
 
 ---
 
-### TC36 - performance_glitch_user logs in and reaches the inventory page ⬜
+### TC36 - performance_glitch_user logs in and reaches the inventory page ✅
 
 **Goal:** Verify that performance_glitch_user can log in despite intentionally slow response times.
 
@@ -613,7 +613,7 @@ This document covers all planned test cases for the SauceDemo app, grouped by fe
 
 ---
 
-### TC37 - error_user logs in and reaches the inventory page ⬜
+### TC37 - error_user logs in and reaches the inventory page ✅
 
 **Goal:** Verify that error_user can log in and land on the inventory page.
 

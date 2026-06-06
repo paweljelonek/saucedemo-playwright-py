@@ -14,6 +14,9 @@ class LoginPage:
     def navigate(self) -> None:
         self.page.goto(URL.LOGIN)
 
+    def is_loaded(self) -> bool:
+        return URL.LOGIN in self.page.url
+
     def login(self, username: str, password: str) -> None:
         self._username_input.fill(username)
         self._password_input.fill(password)
