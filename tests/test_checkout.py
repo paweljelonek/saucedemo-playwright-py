@@ -1,17 +1,9 @@
-import pytest
 from playwright.sync_api import Page
 
 from pages.cart_page import CartPage
 from pages.checkout_page import CheckoutPage
 from utils.checkout_data import VALID_CUSTOMER
 from utils.urls import URL
-
-
-@pytest.fixture
-def checkout_form_page(cart_with_product: Page) -> Page:
-    cart_page = CartPage(cart_with_product)
-    cart_page.proceed_to_checkout()
-    return cart_with_product
 
 
 class TestCheckoutForm:
