@@ -15,7 +15,6 @@ def checkout_form_page(cart_with_product: Page) -> Page:
 
 
 class TestCheckoutForm:
-
     def test_tc24_checkout_opens_form_with_required_fields(self, cart_with_product: Page) -> None:
         cart_page = CartPage(cart_with_product)
         checkout_page = CheckoutPage(cart_with_product)
