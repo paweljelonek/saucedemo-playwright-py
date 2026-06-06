@@ -10,7 +10,6 @@ from utils.urls import URL
 
 
 class TestCheckoutSummary:
-
     def test_tc28_completing_form_opens_order_summary(self, checkout_summary_page: Page) -> None:
         summary_page = CheckoutSummaryPage(checkout_summary_page)
 
@@ -36,9 +35,7 @@ class TestCheckoutSummary:
         item_prices = summary_page.get_item_prices()
 
         assert round(summary_page.get_subtotal(), 2) == round(sum(item_prices), 2)
-        assert round(summary_page.get_total(), 2) == round(
-            summary_page.get_subtotal() + summary_page.get_tax(), 2
-        )
+        assert round(summary_page.get_total(), 2) == round(summary_page.get_subtotal() + summary_page.get_tax(), 2)
 
     def test_tc30_cancel_on_summary_returns_to_inventory(self, checkout_summary_page: Page) -> None:
         summary_page = CheckoutSummaryPage(checkout_summary_page)
